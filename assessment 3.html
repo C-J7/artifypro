@@ -1,0 +1,246 @@
+<html>
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>JSAM Business</title> 
+  <link rel="stylesheet" href="styles.css"> 
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet"> 
+ <style type="text/css" id="dcoder_stylesheet">:root {
+    --primary-color: #8B4513;
+    --secondary-color: #4B0082;
+    --accent-color: #006400;
+    --text-color: #333;
+    --light-text: #666;
+    --white: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+  body {
+    max-width: 480px;
+    margin: 0 auto;
+    background-color: var(--white);
+}
+
+header {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--white);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo-symbol {
+    background-color: var(--primary-color);
+    color: var(--white);
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-text span {
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.logo-text .subtitle {
+    font-size: 0.8rem;
+    color: var(--light-text);
+}
+
+.header-nav {
+    display: flex;
+    gap: 1rem;
+}
+
+.icon-button {
+    background-color: var(--secondary-color);
+    color: var(--white);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.hero {
+    position: relative;
+    padding: 1rem;
+}
+
+.curve-container {
+    position: auto;
+    width: absolute;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100% ;
+    object-fit: container;
+}
+
+.curve {
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: var(--white);
+    border-radius: 50% 50% 0 0;
+}
+
+.hero-content {
+    padding: 2rem 0;
+}
+
+.subtitle-green {
+    color: var(--accent-color);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+    color: var(--text-color);
+    margin-bottom: 2rem;
+}
+
+.highlight {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+.cta-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-section h3 {
+    color: var(--secondary-color);
+}
+
+.link-underline {
+    color: var(--light-text);
+    text-decoration: underline;
+}
+
+.services {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: var(--white);
+    padding: 2rem;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.services h2 {
+    margin-bottom: 0rem; 
+    front-size: 2rem;
+}
+
+.services-content {
+    margin-top: 2rem;
+}
+
+.services-content h3 {
+    font-size: 2.7rem;
+    margin: 0.8rem 0; 
+}
+
+.services-content h4 {
+    font-size: 2.5rem;
+    margin: 3.5rem 0;  
+    margin-top: -0.8rem;                                                                                              } 
+
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 480px;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--white);
+    padding: 1rem;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: var(--light-text);
+    font-size: 0.8rem;
+}
+
+.nav-item.active {
+    color: var(--primary-color);
+}
+
+.nav-item .icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.3rem;
+}</style></head> 
+ <body> 
+  <header> 
+   <div class="logo"> 
+    <div class="logo-symbol">
+      JS 
+    </div> 
+    <div class="logo-text"> <span>JSAM</span> <span class="subtitle">BUSINESS</span> 
+    </div> 
+   </div> 
+   <nav class="header-nav"> <button class="icon-button">📱</button> <button class="icon-button">☰</button> 
+   </nav> 
+  </header> 
+  <main> 
+   <section class="hero"> 
+    <div class="curve-container"> 
+     <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3" alt="Business professionals in meeting" class="hero-image"> 
+     <div class="curve"></div> 
+    </div> 
+    <div class="hero-content"> 
+     <p class="subtitle-green">WE ARE EXPERT TEAM</p> 
+     <h1>We create solutions that facilitate and enhance business <span class="highlight">growth.</span></h1> 
+     <div class="cta-section"> 
+      <h3>How it works?</h3> <a href="#" class="link-underline">Read the full story line</a> 
+     </div> 
+    </div> 
+   </section> 
+   <section class="services"> 
+    <h2>OUR SERVICES</h2> 
+    <div class="services-content"> 
+     <p></p> 
+     <h3>We Will</h3> 
+     <h4>Help Your Business Growing</h4> 
+    </div> 
+   </section> 
+   <nav class="bottom-nav"> <a href="#" class="nav-item active"> <span class="icon">🏠</span> <span>Home</span> </a> <a href="#" class="nav-item"> <span class="icon">💼</span> <span>Services</span> </a> <a href="#" class="nav-item"> <span class="icon">❓</span> <span>FAQ</span> </a> <a href="#" class="nav-item"> <span class="icon">✉️</span> <span>Contact</span> </a> 
+   </nav> 
+  </main> 
+ 
+</body></html>
